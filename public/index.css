@@ -7,6 +7,10 @@
 	border-left: 1px solid;
 }
 
+.bot{
+	border-bottom: 1px solid; 
+}
+
 body{
 	margin: 0;
 }
@@ -157,3 +161,60 @@ header{
 	height: 35px;
 	margin-bottom: 10%;
 }
+
+/* section espaciado*/
+
+#espacios ul{
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#espacios nav li{
+	height: 30px;
+	width: 13%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+#caratulas{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 2%;
+}
+
+#fases{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#fases fieldset{
+	width: 90%;
+}
+
+#fases fieldset img{
+	height: 140px;
+	width: auto;
+	margin-right: 1%;
+}
+
+#fases fieldset legend{
+	text-transform: uppercase;
+}
+
+.field{
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 1%;
+}
+
