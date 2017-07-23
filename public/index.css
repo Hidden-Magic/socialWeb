@@ -218,3 +218,48 @@ header{
 	margin-bottom: 1%;
 }
 
+#actuales{
+	width: 90%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#actuales fieldset{
+	padding: 0;
+	width: 40%;
+}
+
+#actuales fieldset legend{
+	text-transform: uppercase;
+}
+
+#actuales fieldset img{
+	height: 140px;
+	width: auto;
+	margin-right: 1%;
+}
+
+.conProgreso{
+	display: flex;
+	justify-content: space-around;
+}
+
+.conProgreso .datos{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.conProgreso .datos label{
+	text-transform: uppercase;
+}
+
+#progreso{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

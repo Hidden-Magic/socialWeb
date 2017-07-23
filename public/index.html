@@ -80,7 +80,7 @@
 	<section id="espacios">
 		<nav>
 			<ul class="bot">
-				<li id="read">leyendo</li>
+				<li id="actual">Actualmente</li>
 				<li id="book" class="left">Libros</li>
 				<li id="film" class="left">Peliculas</li>
 				<li id="show" class="left">Series</li>
@@ -89,22 +89,54 @@
 			</ul>
 		</nav>
 		<div id="caratulas">
-			<div id="fases">
-				<fieldset id="QL" class="field">
-					<legend>Queiro Leer</legend>
-					<img src="" alt="imagen" class="bordes">
+			<div id="actuales">
+				<fieldset class="field">
+					<legend>Leyendo</legend>
+					<div class="conProgreso">
+						<img src="" alt="imagen" class="bordes">
+						<div class=" datos">
+							<label>titulo de libro</label>
+							<label>Autor</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
+						</div>
+					</div>
 				</fieldset>
-				<fieldset id="leidos" class="field">
-					<legend>Leidos</legend>
-					<img src="" alt="imagen" class="bordes">
+				<fieldset class="field">
+					<legend>Viendo</legend>
+					<div class="conProgreso">
+						<img src="" alt="imagen" class="bordes">
+						<div class="datos">
+							<label>titulo de libro</label>
+							<label>Autor</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
+						</div>
+					</div>
 				</fieldset>
-				<fieldset id="fav" class="field">
-					<legend>Favoritos</legend>
-					<img src="" alt="imagen" class="bordes">
+				<fieldset class="field">
+					<legend>Jugando</legend>
+					<div class="conProgreso">
+						<img src="" alt="imagen" class="bordes">
+						<div class="datos">
+							<label>titulo de libro</label>
+							<label>Compañía</label>
+						</div>
+					</div>
 				</fieldset>
-				<fieldset id="abandonar" class="field">
-					<legend>Abandonados</legend>
-					<img src="" alt="imagen" class="bordes">
+				<fieldset class="field">
+					<legend>ultimas Actualizaciones</legend>
+					<div class="conProgreso">
+						<img src="" alt="imagen" class="bordes">
+						<div class="datos">
+							<label>titulo de libro</label>
+							<label>Compañía</label>
+						</div>
+					</div>
 				</fieldset>
 			</div>
 		</div>

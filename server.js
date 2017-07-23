@@ -27,6 +27,13 @@ App.post("/especif",function(req,res){
 	});
 });
 
+App.post("/reading",function(req,res){
+	var imagen="<img src='' alt='imagen' class='bordes'>";
+	res.json({
+		im:imagen
+	});
+});
+
 // listen
 App.listen(process.env.PORT||3000,function(){
 	console.log("escuchando desde 3000");
