@@ -183,6 +183,14 @@ header{
 	text-transform: uppercase;
 }
 
+#espacios nav li i{
+	margin-left: 5px;
+}
+
+#espacios nav #game i{
+	height: 20px;
+}
+
 #caratulas{
 	margin-top: 3%;
 	display: flex;

@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>plantilla5</title>
 	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header id="header" class="bordes">
@@ -27,10 +28,10 @@
 			<input type="text" name="" placeholder="Buscar">
 		</div>
 		<div id="perfiles">
-			<img src="" alt="Not" >
-			<img src="" alt="Men" >
-			<img src="" alt="Gru" >
-			<img src="" alt="Ami" >
+			<i class="fa fa-bell" aria-hidden="true"></i>
+			<i class="fa fa-envelope" aria-hidden="true"></i>
+			<i class="fa fa-users" aria-hidden="true"></i>
+			<i class="fa fa-address-book" aria-hidden="true"></i>
 			<img src="" alt="img" >
 		</div>
 	</header><!-- /header -->
@@ -81,10 +82,10 @@
 		<nav>
 			<ul class="bot">
 				<li id="actual">Actualmente</li>
-				<li id="book" class="left">Libros</li>
-				<li id="film" class="left">Peliculas</li>
-				<li id="show" class="left">Series</li>
-				<li id="game" class="left">Videojuegos</li>
+				<li id="book" class="left">libros<i class="fa fa-book fa-lg" aria-hidden="true"></i></li>
+				<li id="film" class="left">peliculas<i class="fa fa-video-camera fa-lg" aria-hidden="true"></i></li>
+				<li id="show" class="left">series<i class="fa fa-television fa-lg" aria-hidden="true"></i></li>
+				<li id="game" class="left">videojuegos<i class="fa fa-gamepad fa-lg" aria-hidden="true"></i></li>
 				<li id="reto" class="left">Retos</li>
 			</ul>
 		</nav>
@@ -129,12 +130,41 @@
 					</div>
 				</fieldset>
 				<fieldset class="field">
-					<legend>ultimas Actualizaciones</legend>
+					<legend>Retos</legend>
 					<div class="conProgreso">
-						<img src="" alt="imagen" class="bordes">
 						<div class="datos">
-							<label>titulo de libro</label>
-							<label>Compañía</label>
+							<label>Lecturas</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
+						</div>
+					</div>
+					<div class="conProgreso">
+						<div class="datos">
+							<label>Peliculas</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
+						</div>
+					</div>
+					<div class="conProgreso">
+						<div class="datos">
+							<label>Series</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
+						</div>
+					</div>
+					<div class="conProgreso">
+						<div class="datos">
+							<label>Juegos</label>
+							<div id="progreso">
+								<label>x de x</label>
+								<progress value="20" max="100">
+							</div>
 						</div>
 					</div>
 				</fieldset>
